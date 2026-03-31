@@ -4,8 +4,15 @@ Calcular la potencia de una base elevada a un exponente entero positivo.
 """
 
 def potencia_ciclo(base, exponente):
+    resultado = 1
+    for i in range (exponente):
+        resultado *= base
+    return resultado
     pass
 
 
 def potencia_recursiva(base, exponente):
+    if exponente == 0 
+    return 1
+return base * potencia_recursiva (base, exponente - 1)
     pass

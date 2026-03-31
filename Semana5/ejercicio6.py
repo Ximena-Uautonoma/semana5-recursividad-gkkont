@@ -12,7 +12,8 @@ def total_ventas_ciclo(ventas):
     """
     Retorna el total de ventas usando ciclos.
     """
-    # Escriba aquí su solución
+    for i in range (ventas):
+   
     pass
 
 

@@ -19,5 +19,5 @@ def contar_recursivo(n):
     """
     if n == 1:
         return [1]
-    lista = contar_recursivo (n-1)[n] 
+    lista = contar_recursivo (n-1) + [n] 
  
